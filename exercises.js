@@ -120,7 +120,7 @@ function bigBird(word){
     return 'Word to Big Bird!';
   }
 }
-console.log("Question 5:", bigBird('dog'));
+console.log("Question 5:", bigBird('Racoon'));
 
 /*
  * #6
