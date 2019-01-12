@@ -53,7 +53,7 @@ console.log(canVote(19));
 
 function login(password){
   if(password = "test1234"){
-    return "Login Success!"
+    return "Login Success!";
   }else{
     return "Try Again";
   }
@@ -73,7 +73,14 @@ console.log(login("test1234"));
  * Console.log your result.
 */
 
-
+function isGreaterThan(first, second){
+  if(first > second){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(isGreaterThan(7,5))
 
 /*
  * #4
