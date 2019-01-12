@@ -277,7 +277,7 @@ function graduation(credits, thesis){
     return "See you in summer school"
   }
 }
-console.log(graduation(134, false))
+console.log("Question 12: ", graduation(134, false))
 
 /*
  * #13
@@ -291,6 +291,14 @@ console.log(graduation(134, false))
  * Console.log your result.
 */ 
 
+function moneyTrain(speed){
+  if(speed < 50){
+    return "You are riding Honolulu Rail."
+  }else{
+    return "You are riding the Amtrak."
+  }
+}
+console.log("Question 13: ", moneyTrain(72))
 
 /*
  * #14
