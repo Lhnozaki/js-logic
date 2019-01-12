@@ -227,8 +227,14 @@ console.log("Question 9:", dirty30(12, 10, 9));
  * Console.log your result.
 */ 
 
-
-
+function evenStevens(num){
+  if(num%2 === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("Question 10:", evenStevens(8))
 
 /*
  * #11
