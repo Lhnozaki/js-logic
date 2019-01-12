@@ -319,7 +319,7 @@ var doughnutPrice = 5;
 var doughnutBought = 0;
 function buyDoughnut(){
   if(budget >= doughnutPrice){
-return budget - doughnutPrice, doughnutBought++;
+return budget -= doughnutPrice, doughnutBought++;
   }
 }
 buyDoughnut();
