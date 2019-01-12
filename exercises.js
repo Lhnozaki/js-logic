@@ -179,7 +179,14 @@ console.log("Question 7: ", notEqual("Fire", "Ice"))
  * Console.log your result.
 */ 
 
-
+function spareChange(money){
+  if(money > 100){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("Question 8:", spareChange(33))
 
 /*
  * #9
@@ -195,7 +202,18 @@ console.log("Question 7: ", notEqual("Fire", "Ice"))
  * Console.log your result.
 */ 
 
+function sum(numOne, numTwo, numThree){
+  return numOne + numTwo + numThree;
+}
 
+function dirty30(one, two, three){
+  if(sum(one, two, three) > 30){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("Question 9:", dirty30(12, 10, 9));
 
 /*
  * #10
