@@ -135,6 +135,14 @@ console.log("Question 5:", bigBird('Racoon'));
  * Console.log your result.
 */
 
+function isEqual(first, second){
+  if(first === second){
+    return "You look Mahvelous!"
+    }else{
+      return "I don't know who you are anymore."
+    }
+}
+console.log("Question 6:", isEqual("Lemon", "Lime"))
 
 /*
  * #7
