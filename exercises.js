@@ -314,6 +314,24 @@ console.log("Question 13: ", moneyTrain(72))
  * Console.log budget and doughnutBought again.
 */ 
 
+var budget = 40;
+var doughnutPrice = 5;
+var doughnutBought = 0;
+function buyDoughnut(){
+  if(budget >= doughnutPrice){
+return budget - doughnutPrice, doughnutBought++;
+  }
+}
+buyDoughnut();
+console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+buyDoughnut();
+console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+buyDoughnut();
+console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+buyDoughnut();
+console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+
+
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
