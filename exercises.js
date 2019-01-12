@@ -17,7 +17,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
   return "Get back to coding!";
 };*/
 
-console.log('hello');
+console.log('Test: hello world');
 
 /*
  * #1
@@ -37,7 +37,7 @@ function canVote(age){
       return false;
     }
 }
-console.log(canVote(19));
+console.log("Question 1:", canVote(19));
 
 /*
  * #2
@@ -58,7 +58,7 @@ function login(password){
     return "Try Again";
   }
 }
-console.log(login("test1234"));
+console.log("Question 2:", login("test1234"));
 
 /*
  * #3
@@ -80,7 +80,7 @@ function isGreaterThan(first, second){
     return false;
   }
 }
-console.log(isGreaterThan(7,5))
+console.log("Question 3:", isGreaterThan(7,5))
 
 /*
  * #4
@@ -94,7 +94,14 @@ console.log(isGreaterThan(7,5))
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo){
+  if(boo === true){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("Question 4:", mustBeTrue(true))
 
 /*
  * #5
@@ -108,7 +115,12 @@ console.log(isGreaterThan(7,5))
  * Console.log your result.
 */
 
-
+function bigBird(word){
+  if(word.length === 3){
+    return 'Word to Big Bird!';
+  }
+}
+console.log("Question 5:", bigBird('dog'));
 
 /*
  * #6
