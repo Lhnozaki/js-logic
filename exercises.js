@@ -157,6 +157,15 @@ console.log("Question 6:", isEqual("Lemon", "Lime"))
  * Console.log your result.
 */
 
+function notEqual(first, second){
+  if(first !== second){
+    return "Opposites do attract"
+  }else{
+    return "Cause it's like you're my mirror"
+  }
+}
+console.log("Question 7: ", notEqual("Fire", "Ice"))
+
 
 /*
  * #8
