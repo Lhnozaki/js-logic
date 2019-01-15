@@ -236,6 +236,16 @@ function evenStevens(num){
 }
 console.log("Question 10:", evenStevens(8))
 
+function test(num){
+  if(Number.isInteger(num)){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("Question 10 Alternate Answer: ", test(100));
+
+
 /*
  * #11
  * Function - daClub
@@ -317,12 +327,14 @@ console.log("Question 13: ", moneyTrain(72))
 var budget = 40;
 var doughnutPrice = 5;
 var doughnutBought = 0;
+
 function buyDoughnut(){
   if(budget >= doughnutPrice){
-return budget -= doughnutPrice, doughnutBought++;
+return budget -= doughnutPrice, // x -= y means x - y
+      doughnutBought++; // increase unit by 1
   }
 }
-buyDoughnut();
+buyDoughnut(); //computers read code from top to bottom.
 console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
 buyDoughnut();
 console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
@@ -374,6 +386,7 @@ The for loop is made up for 3 parts:
 3) Update (i.e. i++)
 */
 
+
 var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
 
 for (var i = 0; i<toyotaModels.length; i++){
@@ -391,6 +404,9 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+for (var i = 1; i <= 5; i++){
+  console.log("Player: ", i)
+}
 
 /* 
  * #16
