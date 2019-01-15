@@ -530,8 +530,8 @@ function removeLetter(str){
 return phraseArray;
 }
 
-//removeLetter(phrase);
-//console.log(newPhrase);
+removeLetter(phrase);
+console.log(newPhrase);
 
 
 
