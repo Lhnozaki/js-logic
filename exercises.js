@@ -437,8 +437,8 @@ var numArray = [2, 4, 6, 8, 10];
 var total = 0;
 
 function sumItUp(arr){
-for (i = 0; i <numArray.length; i++){
-total += numArray[i]
+for (i = 0; i <arr.length; i++){
+total += arr[i]
 }
 return total;
 }
@@ -456,7 +456,25 @@ console.log("Question 17: ", sumItUp(numArray));
  * Console.log both the east and west arrays.
 */ 
 
-var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+var players = ["Yao Ming", "BrookLin", "Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+var east = []
+var west = []
+
+function allStars(ballers){
+  for(i = 0; i < ballers.length; i++){
+    console.log(ballers[i]);
+  if (i%2 === 0){
+    east.push(ballers[i]);
+  }else{
+    west.push(ballers[i]);
+  }
+}
+}
+
+allStars(players);
+console.log("Question 18: ", east);
+console.log("Question 18: ", west);
+
 /*
  * #19
  * Function - subways
