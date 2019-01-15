@@ -335,14 +335,13 @@ return budget -= doughnutPrice, // x -= y means x - y
   }
 }
 buyDoughnut(); //computers read code from top to bottom.
-console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+console.log("Question 14: ", "Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
 buyDoughnut();
-console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+console.log("Question 14: ", "Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
 buyDoughnut();
-console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
+console.log("Question 14: ", "Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
 buyDoughnut();
-console.log("Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
-
+console.log("Question 14: ", "Budget Left: ", budget, "Doughnuts Bought: ", doughnutBought);
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
@@ -374,7 +373,7 @@ case "Saturday":
 
     return menuItem;
 }
-console.log("The daily special for today is: ", dailySpecials('Sunday'));
+console.log("Final Boss: ", "The daily special for today is: ", dailySpecials('Sunday'));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
@@ -390,7 +389,7 @@ The for loop is made up for 3 parts:
 var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
 
 for (var i = 0; i<toyotaModels.length; i++){
-   console.log("Toyota " + toyotaModels[i]);
+   console.log("Example: ", "Toyota " + toyotaModels[i]);
 }
 
 
@@ -405,15 +404,19 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 for (var i = 1; i <= 5; i++){
-  console.log("Player: ", i)
+  console.log("Question 15: ", "Player: ", i)
 }
 
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
+
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+for (i = 0; i<myFavFoods.length; i++){
+  console.log("Question 16: ", myFavFoods[i])
+}
 
 /*
  * #17
