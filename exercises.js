@@ -433,7 +433,16 @@ for (i = 0; i<myFavFoods.length; i++){
  * Console.log your result.
 */
 
+var numArray = [2, 4, 6, 8, 10];
+var total = 0;
 
+function sumItUp(arr){
+for (i = 0; i <numArray.length; i++){
+total += numArray[i]
+}
+return total;
+}
+console.log("Question 17: ", sumItUp(numArray));
 
 /*
  * #18
